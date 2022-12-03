@@ -26,6 +26,8 @@ spring:
       max-request-size: 100MB
   resources:
     static-locations: [ "classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/" , "file:///root/exiafor/jar-demo-project/zhxy//target/classes/public/upload" ]
+  profiles:
+    include: jdbc
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
