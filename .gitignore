@@ -1,0 +1,5 @@
+/ssm/src/main/resources/jdbc.properties
+/mybatis/src/main/resources/jdbc.properties
+/spring/src/main/resources/jdbc.properties
+/zhxy/src/main/resources/application-jdbc.yaml
+/springboot/src/main/resources/application-jdbc.yaml
