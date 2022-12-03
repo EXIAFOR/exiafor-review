@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.exiafor.mapper.EmpMapper">
+    <!--Emp getEmpAndDeptByEmpId(@Param("empId") int empId);-->
+    <select id="getEmpAndDeptByEmpId">
+        select t_emp.*, t_dept.*
+        from t_emp
+                 left join t_dept on t_emp.dept_id = t_dept.dept_id
+        where t_emp.emp_id = #{empId}
+    </select>
+
+</mapper>

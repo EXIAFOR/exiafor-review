@@ -1,0 +1,22 @@
+server:
+  port: 8888
+spring:
+  mvc:
+    servlet:
+      load-on-startup: 1
+    hiddenmethod:
+      filter:
+        enabled: true
+  resources:
+    static-locations: [ classpath:/pages/,classpath:/static/ ]
+  profiles:
+    include: jdbc
+logging:
+  level:
+    web: trace
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: '*' #以web方式暴露
