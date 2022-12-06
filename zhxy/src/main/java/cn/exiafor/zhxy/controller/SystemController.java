@@ -191,7 +191,7 @@ public class SystemController {
             @ApiParam("登录提交信息的form表单")
             @RequestBody LoginForm loginForm,
             HttpServletRequest request) {
-        // 验证码教员
+        // 验证码校验
         HttpSession session = request.getSession();
         String sessionVerifiCode = (String) session.getAttribute("verifiCode");
         String loginVerifiCode = loginForm.getVerifiCode();
