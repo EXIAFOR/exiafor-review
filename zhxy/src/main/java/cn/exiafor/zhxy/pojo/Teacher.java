@@ -15,7 +15,7 @@ public class Teacher {
     private Integer id;
     private String tno;
     private String name;
-    private char gender;
+    private Character gender;
     private String password;
     private String email;
     private String telephone;

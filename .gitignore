@@ -3,6 +3,5 @@
 /spring/src/main/resources/jdbc.properties
 /zhxy/src/main/resources/application-jdbc.yaml
 /springboot/src/main/resources/application-jdbc.yaml
-/ssm/target/
-/mybatis/target/
-/src/
+# 忽略所有的target目录
+target/

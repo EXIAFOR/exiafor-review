@@ -128,11 +128,14 @@ public class SystemController {
         String newFileName = uuid + originalFilename.substring(originalFilename.lastIndexOf('.'));
         // 保存文件 将文件发送到第三方/独立的图片服务器上
 
-//        String savePath = "D:\\d-dual-backup-to-e\\code\\exiafor-review\\" +
-//                "zhxy\\target\\classes\\public\\upload\\" +
-//                newFileName;
+        String savePath;
 
-        String savePath = System.getProperty("user.dir") + "/target/classes/public/upload" +  File.separator + newFileName;
+        // 调整文件上传位置，兼容window及linux
+        if ("Linux".equals(System.getProperty("os.name"))) {
+            savePath = System.getProperty("user.dir") + "/target/classes/public/upload" + File.separator + newFileName;
+        } else {
+            savePath = System.getProperty("user.dir") + "/zhxy/target/classes/public/upload" + File.separator + newFileName;
+        }
 
         try {
             multipartFile.transferTo(new File(savePath));

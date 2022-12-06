@@ -58,7 +58,6 @@ public class TeacherController {
         return Result.ok();
     }
 
-
     // DELETE
     // deleteTeacher
 

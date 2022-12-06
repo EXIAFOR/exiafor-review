@@ -46,7 +46,7 @@ public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher> impl
 
         // 拼接查询条件
         if (!StringUtils.isEmpty(teacher.getClazzName())) {
-            queryWrapper.like("name", teacher.getClazzName());
+            queryWrapper.like("clazz_name", teacher.getClazzName());
         }
 
         queryWrapper.orderByDesc("id");

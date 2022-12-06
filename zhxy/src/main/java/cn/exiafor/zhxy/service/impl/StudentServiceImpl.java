@@ -45,7 +45,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student> impl
 
         // 拼接查询条件
         if (!StringUtils.isEmpty(student.getClazzName())) {
-            queryWrapper.like("name", student.getClazzName());
+            queryWrapper.like("clazz_name", student.getClazzName());
         }
 
         queryWrapper.orderByDesc("id");
