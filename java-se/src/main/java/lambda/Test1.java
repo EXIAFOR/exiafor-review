@@ -1,9 +1,7 @@
 package lambda;
 
-import org.junit.Test;
 
 public class Test1 {
-    @Test
     public void test1() {
         Runnable r1 = new Runnable() {
             @Override

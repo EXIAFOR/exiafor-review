@@ -1,7 +1,6 @@
 package reflect;
 
 import bean.Person;
-import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,7 +8,6 @@ import java.util.Properties;
 import java.util.Random;
 
 public class Test1 {
-    @Test
     public void test1() {
         for (int i = 0; i < 100; ++i) {
             int num = new Random().nextInt(3);//0,1,2
@@ -39,7 +37,6 @@ public class Test1 {
         }
     }
 
-    @Test
     public void test2() throws IOException {
         Properties pros = new Properties();
 

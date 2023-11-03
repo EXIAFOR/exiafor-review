@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/exiafor-review.iml" filepath="$PROJECT_DIR$/exiafor-review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/re_sboot/re_sboot.iml" filepath="$PROJECT_DIR$/re_sboot/re_sboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
     </modules>
   </component>
 </project>

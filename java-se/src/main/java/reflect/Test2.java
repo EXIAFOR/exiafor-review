@@ -1,7 +1,6 @@
 package reflect;
 
 import bean.Person;
-import org.junit.Test;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -11,7 +10,6 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 
 public class Test2 {
-    @Test
     public void test1() {
         Class<Person> clazz = Person.class;
 
@@ -41,7 +39,6 @@ public class Test2 {
         }
     }
 
-    @Test
     public void test2() {
         Class<Person> clazz = Person.class;
 
@@ -58,7 +55,6 @@ public class Test2 {
         }
     }
 
-    @Test
     public void test3() {
         Class<Person> clazz = Person.class;
 
@@ -67,7 +63,6 @@ public class Test2 {
         System.out.println(superclass);
     }
 
-    @Test
     public void test4() {
         Class<Person> personClass = Person.class;
 
@@ -75,7 +70,6 @@ public class Test2 {
 
     }
 
-    @Test
     public void test5() throws InstantiationException, IllegalAccessException, NoSuchFieldException {
         Class<Person> personClass = Person.class;
 
@@ -89,7 +83,6 @@ public class Test2 {
         System.out.println(name.get(person));
     }
 
-    @Test
     public void test6() throws InvocationTargetException, IllegalAccessException, NoSuchMethodException {
         Class<Person> pClass = Person.class;
 
@@ -98,7 +91,6 @@ public class Test2 {
         method.invoke(new Person());
     }
 
-    @Test
     public void test7() throws Exception {
         Class<Person> personClass = Person.class;
 

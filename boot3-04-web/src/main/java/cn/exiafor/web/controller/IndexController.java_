@@ -1,0 +1,24 @@
+package cn.exiafor.web.controller;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class IndexController {
+    @GetMapping("/")
+    public Person index(@RequestParam("msg") String msg) {
+        return new Person(msg, 18);
+    }
+}
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+class Person {
+    private String name;
+    private int age;
+}

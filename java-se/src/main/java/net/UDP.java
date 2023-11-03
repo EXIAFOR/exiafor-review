@@ -1,6 +1,5 @@
 package net;
 
-import org.junit.Test;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
@@ -8,7 +7,6 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 
 public class UDP {
-    @Test
     public void sender() throws IOException {
         DatagramSocket socket = new DatagramSocket();
 
@@ -24,7 +22,6 @@ public class UDP {
         socket.close();
     }
 
-    @Test
     public void receiver() throws IOException {
         DatagramSocket socket = new DatagramSocket(10000);
 

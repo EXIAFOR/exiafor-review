@@ -1,0 +1,8 @@
+<servlet>
+    <servlet-name>testServlet</servlet-name>
+    <servlet-class>cn.exiafor.test.TestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>testServlet</servlet-name>
+    <url-pattern>/t</url-pattern>
+  </servlet-mapping>

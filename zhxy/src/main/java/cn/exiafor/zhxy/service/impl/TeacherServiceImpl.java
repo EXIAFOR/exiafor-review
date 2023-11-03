@@ -1,9 +1,7 @@
 package cn.exiafor.zhxy.service.impl;
 
 import cn.exiafor.zhxy.mapper.TeacherMapper;
-import cn.exiafor.zhxy.pojo.Admin;
 import cn.exiafor.zhxy.pojo.LoginForm;
-import cn.exiafor.zhxy.pojo.Student;
 import cn.exiafor.zhxy.pojo.Teacher;
 import cn.exiafor.zhxy.service.TeacherService;
 import cn.exiafor.zhxy.util.MD5;

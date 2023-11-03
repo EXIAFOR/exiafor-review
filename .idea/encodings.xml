@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/../../../d-archive-only-once/LocalRepository/org/springframework/boot/spring-boot-starter-parent/2.2.1.RELEASE/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../../../d-archive-only-once/LocalRepository/org/springframework/boot/spring-boot-starter-parent/2.3.4.RELEASE/src/main/resources" charset="UTF-8" />
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/boot3-01-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot3-04-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-se/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-se/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/re_sboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/re_sboot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/re_ssm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/re_ssm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/skzy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/skzy/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mvc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mvc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/src/main/java" charset="UTF-8" />

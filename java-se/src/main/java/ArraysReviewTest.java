@@ -1,5 +1,3 @@
-import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -9,7 +7,6 @@ import java.util.List;
  * @create 2021-12-14-22:31
  */
 public class ArraysReviewTest {
-    @Test
     public void test1(){
         String[] strs = new String[]{"153135","561651","515153"};
         for (String str : strs) {
@@ -17,7 +14,6 @@ public class ArraysReviewTest {
         }
     }
 
-    @Test
     public void test2(){
         List<String> list = new ArrayList<>();
         list.add("123");
@@ -44,7 +40,6 @@ public class ArraysReviewTest {
 //        Collection coll = new ArrayList();
     }
 
-    @Test
     public void test3(){
         List<String> list = Arrays.asList(new String[]{"abc", "def", "ghi"});
         System.out.println(list);

@@ -1,6 +1,5 @@
 package log;
 
-import org.junit.Test;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -25,7 +24,6 @@ public class Impl {
         log.severe("server");
     }
 
-    @Test
     public void test1() throws FileNotFoundException {
         System.out.println(System.getProperty("user.dir"));
 

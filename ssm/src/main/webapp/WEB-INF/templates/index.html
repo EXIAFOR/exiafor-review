@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="zh_CN" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>Welcome Exiafor's Site</title>
-    <style>
-        p {
-            text-indent: 4em;
-        }
+  <meta charset="UTF-8">
+  <title>Welcome Exiafor's Site</title>
+  <style>
+      p {
+          text-indent: 4em;
+      }
 
-        h3 {
-            text-indent: 2em;
-        }
-    </style>
+      h3 {
+          text-indent: 2em;
+      }
+  </style>
 </head>
 <body>
 <h1>Welcome Exiafor's Site</h1><br>
@@ -20,28 +20,48 @@
 <h3>项目链接</h3>
 <P><a th:href="@{/employee/page/1}">员工信息管理</a></P>
 <h3>技术栈</h3>
-<p>-Spring -SpringMVC -MyBatis -SSM整合 -Thymeleaf</p>
+<p>-Spring5 -SpringMVC -MyBatis -SSM整合 -Thymeleaf</p>
 <h3>使用到的一些内容</h3>
 <p>-Druid -PageHelper -Lombok</p>
 <h3>项目实现的内容</h3>
 <P>完成MyBatis核心文件、Spring核心文件、SpringMVC核心文件的配置</p>
 <p>完成实体类、Service、Controller、Mapper等文件内容的编写</p>
 <p>完成Linux MySQL的安装及配置，完成实体类在MySQL里面的建库建表工作</p>
-<P>实现项目对员工信息进行CRUD操作，最后将项目内容部署到云服务器的Tomcat服务器上</P>
+<P>实现项目对员工信息进行CRUD操作，最后将项目内容部署到云服务器的 Tomcat8 服务器上</P>
 <h3>项目源码</h3>
-<P><a href="https://github.com/EXIAFOR/exiafor-review/tree/master/ssm">https://github.com/EXIAFOR/exiafor-review/tree/master/ssm</a></P>
+<P><a href="https://github.com/EXIAFOR/exiafor-review/tree/master/ssm">https://github.com/EXIAFOR/exiafor-review/tree/master/ssm</a>
+</P>
+<h2>待办事项 todo-list(基于SSM) </h2>
+<h3>项目链接</h3>
+<P><a th:href="@{/ssm}" href="http://1.12.56.107:18888/ssm">待办事项</a></P>
+<h3>技术栈</h3>
+<p>-Spring6(JDK17) -SpringMVC -MyBatis -SSM整合</p>
+<h3>使用到的一些内容</h3>
+<p>-Druid -PageHelper -Lombok</p>
+<h3>项目实现的内容</h3>
+<P>对比与上面的 员工信息管理项目 ，采用了完全注解开发的方式，整体框架为前后分离，主要实现了后端项目的代码</p>
+<P>通过编写 SpringMVC、Spring 以及 MyBatis 的配置类进行各种设置，抛弃了传统的 xml 配置文件方式</p>
+<P>按自己的习惯编写了 logback.xml 文件的输出格式，并配置了 LogbackColorful 类用于输出彩色的日志信息，增加了可阅读性</P>
+<P><img src="/pics/1.png" alt="can't load"></P>
+<p>完成实体类、Service、Controller、Mapper等文件内容的编写</p>
+<p>在已经安装 MySQL8 的服务器上，完成实体类在MySQL里面的建库建表工作</p>
+<P>实现项目对代办信息进行CRUD操作，最后将项目内容部署到云服务器的 Tomcat10 服务器上</P>
+<h3>项目源码</h3>
+<P><a href="https://github.com/EXIAFOR/ssm/tree/master/ssm-todolist">https://github.com/EXIAFOR/ssm/tree/master/ssm-todolist</a>
+</P>
 <h1>智慧校园项目(基于SpringBoot)</h1>
 <h3>项目链接</h3>
 <P><a href="http://192.168.2.200:8888">智慧校园项目</a></P>
 <P><a href="http://192.168.2.200:8888/swagger-ui.html">智慧校园项目-网站文档</a></P>
 <h3>技术栈</h3>
-<p>-Spring -SpringBoot(SpringMVC) -MyBatisPlus(MyBatis)</p>
+<p>-Spring5 -SpringBoot2(SpringMVC) -MyBatisPlus(MyBatis)</p>
 <h3>项目实现的内容</h3>
 <P>完成验证码的显示、使用token验证用户的类型及登录权限的确认</p>
 <P>实现头像文件的上传及回显，实现下拉筛选和搜索功能，实现分页功能</P>
 <P>实现项目对管理员、年级、教师、学生信息的CRUD操作</P>
 <P>代码编写的过程中同步完成swagger文档的内容，方便前端的接口确认及调试</P>
 <h3>项目源码</h3>
-<P><a href="https://github.com/EXIAFOR/exiafor-review/tree/master/zhxy">https://github.com/EXIAFOR/exiafor-review/tree/master/zhxy</a></P>
+<P><a href="https://github.com/EXIAFOR/exiafor-review/tree/master/zhxy">https://github.com/EXIAFOR/exiafor-review/tree/master/zhxy</a>
+</P>
 </body>
 </html>

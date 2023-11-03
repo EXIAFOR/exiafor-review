@@ -1,6 +1,5 @@
 package net;
 
-import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -12,7 +11,6 @@ import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 
 public class Client {
-    @Test
     public void testClient() {
         InetAddress inet;
         Socket socket = null;
@@ -44,7 +42,6 @@ public class Client {
         }
     }
 
-    @Test
     public void testServer() {
         Socket socket = null;
         ByteArrayOutputStream baos = null;

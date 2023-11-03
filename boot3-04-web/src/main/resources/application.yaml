@@ -1,0 +1,20 @@
+spring:
+  mvc:
+    servlet:
+      load-on-startup: 1
+  web:
+    resources:
+      static-locations: classpath:/static/
+      cache:
+        period: 120
+server:
+  port: 8888
+logging:
+  level:
+    web: trace
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: '*'

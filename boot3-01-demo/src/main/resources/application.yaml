@@ -1,0 +1,13 @@
+server:
+  port: 8888
+spring:
+  mvc:
+    servlet:
+      load-on-startup: 1
+person:
+  age: 18
+  name: tom
+logging:
+  level:
+    root: off
+    cn.exiafor.boot3.demo: trace
